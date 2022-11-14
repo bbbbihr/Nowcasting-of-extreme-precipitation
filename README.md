@@ -1,8 +1,5 @@
 # Nowcasting-of-extreme-precipitation
 
-
-![4_overall model_big](https://user-images.githubusercontent.com/37731007/201572457-492baf0f-d7dc-43a4-b5a3-bc5e75168fac.png)
-
 "Bechmark test" contains scripts used for running PySTEPS, more detail can be found at: https://github.com/RubenImhoff/Large_Sample_Nowcasting_Evaluation
 
 "event selection and data analysis" contains scripts used for selecting extreme precipitation events and analyze the precipitation data
@@ -18,3 +15,7 @@ The code can be used following the steps below:
 6. Use vqgan+transformer/transformer_training to train the autoregressive transformer, which is the second stage of the model
 7. Use vqgan+transformer/experiment_nowcasting to test the model's ability of producing nowcasting result
 8. Use vqgan+transformer/experiment_extreme_detection to test the model's ability of detecting the defined extreme events
+
+The overall sturucture of the model is shown below:
+
+<img src="https://user-images.githubusercontent.com/37731007/201572457-492baf0f-d7dc-43a4-b5a3-bc5e75168fac.png" width=50% height=50%>
