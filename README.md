@@ -1,5 +1,8 @@
 # Nowcasting-of-extreme-precipitation
 
+
+![4_overall model_big](https://user-images.githubusercontent.com/37731007/201572457-492baf0f-d7dc-43a4-b5a3-bc5e75168fac.png)
+
 "Bechmark test" contains scripts used for running PySTEPS, more detail can be found at: https://github.com/RubenImhoff/Large_Sample_Nowcasting_Evaluation
 
 "event selection and data analysis" contains scripts used for selecting extreme precipitation events and analyze the precipitation data
